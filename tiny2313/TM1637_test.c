@@ -20,7 +20,7 @@ TM1637_init();
 
 void main(void) {
     setup();
-    uint8_t digit[4] = {0x3f, 0x06, 0x5b, 0x4f};
+    uint8_t digit[4] = {0x01, 0x08, 0x80, 0x00};
     
     while (1) {
         TM1637_sendArray((uint8_t *)digit); 

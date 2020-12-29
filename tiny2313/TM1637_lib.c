@@ -94,3 +94,10 @@ void TM1637_sendArray(uint8_t sendData[]){
 	TM1637_writeByte(0x88 + 0x10);//
 	TM1637_stop();           //
 }
+/*
+void TM1637_write(int data){
+    if ((data > 9999) or (data < -999)) {
+        
+    }
+}*/
+
